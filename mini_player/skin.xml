@@ -44,6 +44,7 @@
 			<position x="0" y="0"/>
 		</geometry>
 		<contents>
+			<action button="right">Activate</action>
 			<action button="left_doubleclick">Activate</action>
 			<action type="menu" button="left_doubleclick">
 				View/Columns playlist/Activate now playing
@@ -63,6 +64,7 @@
 			<position x="0" y="0"/>
 		</geometry>
 		<contents>
+			<action button="right">Activate</action>
 			<action button="left_doubleclick">Activate</action>
 			<action type="menu" button="left_doubleclick">
 				View/Columns playlist/Activate now playing
