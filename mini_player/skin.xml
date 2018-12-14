@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <skin
 	author="Twilyze"
-	name="mini_player"
-	width="384"
+	name="mini_player_wide"
+	width="480"
 	height="48"
 >
 
 <layer name="background" type="absolute-images">
 <geometry type="absolute">
-	<size x="384" y="48"/>
+	<size x="480" y="48"/>
 	<position x="0" y="0"/>
 </geometry>
 
 <layer name="bg_max" type="absolute-images" persistent="true">
 	<geometry type="absolute">
-		<size x="384" y="48"/>
+		<size x="480" y="48"/>
 		<position x="0" y="0"/>
 	</geometry>
 	<contents>
@@ -23,7 +23,7 @@
 </layer>
 <layer name="bg_min" type="absolute-images" enabled="false" persistent="true">
 	<geometry type="absolute">
-		<size x="384" y="20"/>
+		<size x="480" y="20"/>
 		<position x="0" y="0"/>
 	</geometry>
 	<contents>
@@ -77,12 +77,12 @@
 <!-- meta -->
 <layer name="meta_max" type="no-content" persistent="true">
 	<geometry type="absolute">
-		<size x="330" y="28"/>
+		<size x="426" y="28"/>
 		<position x="51" y="19"/>
 	</geometry>
 	<layer name="artist_and_album" type="scrolling-text">
 		<geometry type="absolute">
-			<size x="330" y="12"/>
+			<size x="426" y="12"/>
 			<position x="0" y="0"/>
 		</geometry>
 		<contents font="MS UI Gothic" size="9">
@@ -92,7 +92,7 @@
 	</layer>
 	<layer name="title" type="scrolling-text">
 		<geometry type="absolute">
-			<size x="330" y="14"/>
+			<size x="426" y="14"/>
 			<position x="0" y="14"/>
 		</geometry>
 		<contents font="MS UI Gothic" size="10">
@@ -104,12 +104,12 @@
 
 <layer name="meta_min" type="no-content" enabled="false" persistent="true">
 	<geometry type="absolute">
-		<size x="347" y="14"/>
+		<size x="443" y="14"/>
 		<position x="23" y="4"/>
 	</geometry>
 	<layer name="title" type="scrolling-text">
 		<geometry type="absolute">
-			<size x="347" y="14"/>
+			<size x="443" y="14"/>
 			<position x="0" y="0"/>
 		</geometry>
 		<contents font="MS UI Gothic" size="9">
@@ -123,12 +123,12 @@
 <!-- progressbar -->
 <layer name="progress_mask_max" type="no-content" persistent="true">
 	<geometry type="absolute">
-		<size x="$muldiv(%playback_time_seconds%,66,%length_seconds%)" y="3"/>
-		<position x="53" y="14"/>
+		<size x="$muldiv(%playback_time_seconds%,90,%length_seconds%)" y="4"/>
+		<position x="53" y="8"/>
 	</geometry>
 	<layer name="progress" type="absolute-images">
 		<geometry type="absolute">
-			<size x="66" y="3"/>
+			<size x="90" y="4"/>
 			<position x="0" y="0"/>
 		</geometry>
 		<contents>
@@ -139,12 +139,12 @@
 
 <layer name="progress_mask_min" type="no-content" enabled="false" persistent="true">
 	<geometry type="absolute">
-		<size x="$muldiv(%playback_time_seconds%,66,%length_seconds%)" y="3"/>
-		<position x="49" y="17"/>
+		<size x="$muldiv(%playback_time_seconds%,90,%length_seconds%)" y="3"/>
+		<position x="53" y="17"/>
 	</geometry>
 	<layer name="progress" type="absolute-images">
 		<geometry type="absolute">
-			<size x="66" y="3"/>
+			<size x="90" y="4"/>
 			<position x="0" y="0"/>
 		</geometry>
 		<contents>
@@ -158,7 +158,7 @@
 <layer name="time" type="text" persistent="true">
 	<geometry type="absolute">
 		<size x="80" y="12"/>
-		<position x="51" y="2"/>
+		<position x="148" y="4"/>
 	</geometry>
 	<contents font="MS UI Gothic" size="9">
 		<defaultText>0:00 / 0:00</defaultText>
@@ -173,7 +173,7 @@
 <layer name="min_over" type="button" enabled="false" persistent="true">
 	<geometry type="absolute">
 		<size x="242" y="16"/>
-		<position x="128" y="2"/>
+		<position x="224" y="2"/>
 	</geometry>
 	<contents>
 		<overImg src="bg_min_hover.png"/>
@@ -200,7 +200,7 @@
 <layer name="rating" type="no-content" persistent="true">
 	<geometry type="absolute">
 		<size x="84" y="14"/>
-		<position x="128" y="2"/>
+		<position x="224" y="2"/>
 	</geometry>
 	<layer name="rate_mask" type="no-content">
 		<geometry type="absolute">
@@ -223,7 +223,7 @@
 <layer name="rating_buttons" type="no-content">
 	<geometry type="absolute">
 		<size x="84" y="14"/>
-		<position x="116" y="3"/>
+		<position x="212" y="3"/>
 	</geometry>
 	<layer name="rate0" type="button">
 		<geometry type="absolute">
@@ -304,7 +304,7 @@
 <layer name="pb_buttons" type="no-content">
 	<geometry type="absolute">
 		<size x="88" y="18"/>
-		<position x="211" y="1"/>
+		<position x="307" y="1"/>
 	</geometry>
 	<layer name="pb_play_pause" type="button">
 		<geometry type="absolute">
@@ -357,7 +357,7 @@
 <layer name="pb_order" type="no-content">
 	<geometry type="absolute">
 		<size x="60" y="18"/>
-		<position x="305" y="1"/>
+		<position x="401" y="1"/>
 	</geometry>
 	<layer name="pb_repeat_p" type="button">
 		<geometry type="absolute">
@@ -405,7 +405,7 @@
 <layer name="ctrl_buttons" type="absolute-images">
 	<geometry type="absolute">
 		<size x="15" y="18"/>
-		<position x="368" y="1"/>
+		<position x="464" y="1"/>
 	</geometry>
 	<layer name="exit" type="button" tooltip="Exit foobar2000">
 		<geometry type="absolute">
