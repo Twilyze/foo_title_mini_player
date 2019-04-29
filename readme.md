@@ -1,4 +1,4 @@
-mini_player
+mini_player_wide
 ====
 
 foobar2000 component `foo_title` skin.
