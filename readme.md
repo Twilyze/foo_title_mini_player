@@ -3,7 +3,7 @@ mini_player
 
 foobar2000 component `foo_title` skin.
 
-![preview](https://github.com/twilyze/foo_title_mini_player/blob/master/image/preview.png)
+![preview](/image/preview.png)
 
 
 ## Prerequisites
@@ -17,7 +17,7 @@ foobar2000 component `foo_title` skin.
 
 
 ## Usage
-![usage](https://github.com/twilyze/foo_title_mini_player/blob/master/image/usage.png)
+![usage](/image/usage.png)
 
 <br>
 
@@ -43,4 +43,4 @@ Edit `skin.xml` if you want to display only during playback.
 ```
 
 ## License
-[cc0 1.0](https://github.com/twilyze/foo_title_mini_player/blob/master/LICENSE)
+[cc0 1.0](/LICENSE)
