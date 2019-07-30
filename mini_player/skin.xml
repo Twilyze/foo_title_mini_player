@@ -225,7 +225,7 @@
 		<size x="84" y="14"/>
 		<position x="212" y="3"/>
 	</geometry>
-	<layer name="rate0" type="button">
+	<layer name="rate0" type="button" tooltip="Rating not set">
 		<geometry type="absolute">
 			<size x="14" y="14"/>
 			<position x="0" y="0"/>
@@ -237,7 +237,7 @@
 			<overImg src="rate_hover.png"/>
 		</contents>
 	</layer>
-	<layer name="rate1" type="button">
+	<layer name="rate1" type="button" tooltip="Rating 1">
 		<geometry type="absolute">
 			<size x="14" y="14"/>
 			<position x="14" y="0"/>
@@ -249,7 +249,7 @@
 			<overImg src="rate_hover.png"/>
 		</contents>
 	</layer>
-	<layer name="rate2" type="button">
+	<layer name="rate2" type="button" tooltip="Rating 2">
 		<geometry type="absolute">
 			<size x="14" y="14"/>
 			<position x="28" y="0"/>
@@ -261,7 +261,7 @@
 			<overImg src="rate_hover.png"/>
 		</contents>
 	</layer>
-	<layer name="rate3" type="button">
+	<layer name="rate3" type="button" tooltip="Rating 3">
 		<geometry type="absolute">
 			<size x="14" y="14"/>
 			<position x="42" y="0"/>
@@ -273,7 +273,7 @@
 			<overImg src="rate_hover.png"/>
 		</contents>
 	</layer>
-	<layer name="rate4" type="button">
+	<layer name="rate4" type="button" tooltip="Rating 4">
 		<geometry type="absolute">
 			<size x="14" y="14"/>
 			<position x="56" y="0"/>
@@ -285,7 +285,7 @@
 			<overImg src="rate_hover.png"/>
 		</contents>
 	</layer>
-	<layer name="rate5" type="button">
+	<layer name="rate5" type="button" tooltip="Rating 5">
 		<geometry type="absolute">
 			<size x="14" y="14"/>
 			<position x="70" y="0"/>
@@ -306,7 +306,7 @@
 		<size x="88" y="18"/>
 		<position x="307" y="1"/>
 	</geometry>
-	<layer name="pb_play_pause" type="button">
+	<layer name="pb_play_pause" type="button" tooltip="Play or Pause">
 		<geometry type="absolute">
 			<size x="22" y="18"/>
 			<position x="0" y="0"/>
@@ -317,7 +317,7 @@
 			<downImg src="pb_play_pause.png"/>
 		</contents>
 	</layer>
-	<layer name="pb_stop" type="button">
+	<layer name="pb_stop" type="button" tooltip="Stop">
 		<geometry type="absolute">
 			<size x="22" y="18"/>
 			<position x="22" y="0"/>
@@ -328,7 +328,7 @@
 			<downImg src="pb_stop.png"/>
 		</contents>
 	</layer>
-	<layer name="Previous" type="button">
+	<layer name="Previous" type="button" tooltip="Previous">
 		<geometry type="absolute">
 			<size x="22" y="18"/>
 			<position x="44" y="0"/>
@@ -339,7 +339,7 @@
 			<downImg src="pb_prev.png"/>
 		</contents>
 	</layer>
-	<layer name="Next" type="button">
+	<layer name="Next" type="button" tooltip="Next">
 		<geometry type="absolute">
 			<size x="22" y="18"/>
 			<position x="66" y="0"/>
@@ -359,7 +359,7 @@
 		<size x="60" y="18"/>
 		<position x="401" y="1"/>
 	</geometry>
-	<layer name="pb_repeat_p" type="button">
+	<layer name="pb_repeat_p" type="button" tooltip="Repeat (playlist)">
 		<geometry type="absolute">
 			<size x="20" y="18"/>
 			<position x="0" y="0"/>
@@ -372,7 +372,7 @@
 			<downImg src="pb_repeat_p.png"/>
 		</contents>
 	</layer>
-	<layer name="pb_repeat_1" type="button">
+	<layer name="pb_repeat_1" type="button" tooltip="Repeat (track)">
 		<geometry type="absolute">
 			<size x="20" y="18"/>
 			<position x="20" y="0"/>
@@ -385,7 +385,7 @@
 			<downImg src="pb_repeat_1.png"/>
 		</contents>
 	</layer>
-	<layer name="pb_shuffle" type="button">
+	<layer name="pb_shuffle" type="button" tooltip="Shuffle (tracks)">
 		<geometry type="absolute">
 			<size x="20" y="18"/>
 			<position x="40" y="0"/>
