@@ -123,12 +123,12 @@
 <!-- progressbar -->
 <layer name="progress_mask_max" type="no-content" persistent="true">
 	<geometry type="absolute">
-		<size x="$muldiv(%playback_time_seconds%,90,%length_seconds%)" y="4"/>
-		<position x="53" y="8"/>
+		<size x="$muldiv(%playback_time_seconds%,90,%length_seconds%)" y="5"/>
+		<position x="53" y="7"/>
 	</geometry>
 	<layer name="progress" type="absolute-images">
 		<geometry type="absolute">
-			<size x="90" y="4"/>
+			<size x="90" y="5"/>
 			<position x="0" y="0"/>
 		</geometry>
 		<contents>
@@ -144,7 +144,7 @@
 	</geometry>
 	<layer name="progress" type="absolute-images">
 		<geometry type="absolute">
-			<size x="90" y="4"/>
+			<size x="90" y="5"/>
 			<position x="0" y="0"/>
 		</geometry>
 		<contents>

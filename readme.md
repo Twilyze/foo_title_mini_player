@@ -13,7 +13,7 @@ foobar2000 component `foo_title` skin.
 
 ## Download
 [Release page](https://github.com/twilyze/foo_title_mini_player/releases) 
-`mini_player.zip`
+`mini_player_wide.zip`
 
 
 ## Usage
