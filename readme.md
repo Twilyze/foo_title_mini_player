@@ -9,10 +9,13 @@ foobar2000 component `foo_title` skin.
 ## Prerequisites
 1. [foo_title](https://github.com/TheQwertiest/foo_title)  [(Download)](https://github.com/TheQwertiest/foo_title/releases)
 1. [Playback Statistics](https://www.foobar2000.org/components/view/foo_playcount)
+    - To use `Rating`.
+1. [Columns UI](https://www.foobar2000.org/components/view/foo_ui_columns)
+    - For the `Activate now playing` command.
 
 
 ## Download
-[Release page](https://github.com/twilyze/foo_title_mini_player/releases) 
+[Release page](https://github.com/twilyze/foo_title_mini_player/releases)
 `mini_player.zip`
 
 
