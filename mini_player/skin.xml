@@ -47,7 +47,7 @@
 			<action button="right">Activate</action>
 			<action button="left_doubleclick">Activate</action>
 			<action type="menu" button="left_doubleclick">
-				View/Columns playlist/Activate now playing
+				View/Playlist view/Activate now playing
 			</action>
 		</contents>
 	</layer>
@@ -67,7 +67,7 @@
 			<action button="right">Activate</action>
 			<action button="left_doubleclick">Activate</action>
 			<action type="menu" button="left_doubleclick">
-				View/Columns playlist/Activate now playing
+				View/Playlist view/Activate now playing
 			</action>
 		</contents>
 	</layer>

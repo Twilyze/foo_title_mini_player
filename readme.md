@@ -9,10 +9,13 @@ foobar2000 component `foo_title` skin.
 ## Prerequisites
 1. [foo_title](https://github.com/TheQwertiest/foo_title)  [(Download)](https://github.com/TheQwertiest/foo_title/releases)
 1. [Playback Statistics](https://www.foobar2000.org/components/view/foo_playcount)
+    - To use `Rating`.
+1. [Columns UI](https://www.foobar2000.org/components/view/foo_ui_columns)
+    - For the `Activate now playing` command.
 
 
 ## Download
-[Release page](https://github.com/twilyze/foo_title_mini_player/releases) 
+[Release page](https://github.com/twilyze/foo_title_mini_player/releases)
 `mini_player_wide.zip`
 
 
@@ -26,20 +29,20 @@ Edit `skin.xml` if you want to display only during playback.
 ```xml
 <layer name="background" type="absolute-images">
 <geometry type="absolute">
-  <size x="384" y="48"/>    <!-- Default -->
+  <size x="480" y="48"/>    <!-- Default -->
   <position x="0" y="0"/>
 </geometry>
 
 
 <!-- Replacement code -->
   <!-- Displayed only during playback -->
-  <size x="$if(%ispaused%,0,$if(%isplaying%,384,0))" y="48"/>
+  <size x="$if(%ispaused%,0,$if(%isplaying%,480,0))" y="48"/>
 
   <!-- Hide only while paused -->
-  <size x="$if(%ispaused%,0,384)" y="48"/>
+  <size x="$if(%ispaused%,0,480)" y="48"/>
 
   <!-- Hide only while stopped -->
-  <size x="$if(%isplaying%,384,0)" y="48"/>
+  <size x="$if(%isplaying%,480,0)" y="48"/>
 ```
 
 ## License
